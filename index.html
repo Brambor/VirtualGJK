@@ -1,5 +1,11 @@
+<html>
+<body>
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<p id="errorlog"></p>
+
 <div style="display:none;"> <!--první patro parléřka-->
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -655,6 +661,7 @@
       </g>
     </g>
   </g>
+  </a>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 415.625,312.43749 -82.8125,1.17188 -0.78125,-26.95313 82.8125,-1.17187 0.78125,26.95312"
@@ -662,7 +669,6 @@
      inkscape:path-effect="#path-effect3472-5"
      inkscape:original-d="m 415.625,312.43749 -82.8125,1.17188 -0.78125,-26.95313 82.8125,-1.17187 z"
      inkscape:connector-curvature="0" />
-  </a>
   <a onclick="display('level_p_2', 'content');">
   <g
      id="g3675">
@@ -1777,7 +1783,7 @@
     </g>
   </g>
   </a>
-  <a onclick="getImages('zastupce');">
+  <a onclick="getImages('zastupce_1');">
   <g
      id="g5138"
      transform="translate(1.5625,1.171875)">
@@ -1830,7 +1836,7 @@
     </g>
   </g>
   </a>
-  <a onclick="getImages('zastupce');">
+  <a onclick="getImages('zastupce_2');">
   <g
      id="g5150">
     <path
@@ -8304,3 +8310,17 @@
   </g>
 </svg>
 </div>
+
+<script>
+function getImages($place) {
+    document.getElementById("errorlog").innerHTML = $place;
+}
+
+function display($place) {
+    document.getElementById("errorlog").innerHTML = $place + "(go to)";
+}
+//display('level_h_1', 'content')
+</script>
+
+</body>
+</html>
