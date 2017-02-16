@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    height: 100%;
+    min-width: 1000px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: verdana, verdana ce, sans-serif;
+    font-size: 100%;
+    color: #6D6F72;
+    height: 100%;
+    background: #ffffff;
+}
+img {
+    vertical-align: top;
+    border: 0px;
+    vertical-align: top;
+    text-align: left;
+}
+ul, ol {
+    list-style: none;
+}
+p, div, ul, li, a, span, td {
+    font-family: verdana, verdana ce, sans-serif;
+    font-size: 12px;
+}
+a:hover{
+    cursor: pointer;
+}
+.pirobox_gall_box li {
+    float: left;
+    height: 115px;
+    width: 115x;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-top: 0px;
+}
+.pirobox_gall_box li.end {
+    padding-right: 0px;
+    padding-bottom: 7px;
+    padding-top: 0px;
+}
